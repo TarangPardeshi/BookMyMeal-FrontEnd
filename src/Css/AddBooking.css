@@ -1,0 +1,14 @@
+.booked-day {
+    position: relative;
+  }
+  
+  .booked-day::after {
+    content: '•';
+    position: absolute;
+    top: 50%;
+    right: -1em;
+    transform: translateY(-50%);
+    color: red; /* Change color as needed */
+    font-size: 1.5em;
+  }
+  

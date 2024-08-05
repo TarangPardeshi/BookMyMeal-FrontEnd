@@ -1,0 +1,55 @@
+.coupon-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    margin: 0 0 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  .coupon-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .coupon-details span {
+    flex: 1;
+  }
+  
+  .coupon-details button {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
